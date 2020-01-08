@@ -9,6 +9,8 @@ import { DataService } from '../data.service';
 export class CountryComponent implements OnInit {
   
   countries;
+  flag=0;
+  INDIA="India";
   constructor(private data: DataService) { }
     
   ngOnInit() {
